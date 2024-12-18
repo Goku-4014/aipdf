@@ -40,3 +40,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+*.log
+Thumbs.db,
+ desktop.ini
+
+node_modules/
+npm-debug.log
+yarn-debug.log 
+yarn-error.log
+.env
+
+.env 
+.firebase/
+.next/ 
+.aws/
+.terraform/
+.git/
