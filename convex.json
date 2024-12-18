@@ -1,0 +1,9 @@
+{
+  "node": {
+    "externalPackages": [
+      "convex/server",
+      "convex/values",
+      "@langchain/community/utils/convex"
+    ]
+  }
+}
