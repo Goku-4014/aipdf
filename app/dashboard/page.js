@@ -16,10 +16,10 @@ function Dashboard() {
     <div>
       <h2 className='font-bold text-3xl'>WorkSpace</h2>
 
-      <div className='grid grid-cols-2 md:grid-cols3 lg:grid-cols-4 gap-5  mt-10'>
+      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5  mt-10'>
         {fileList?.length>0?fileList?.map((file,index)=>(
-          <Link href={'/workspace/'+file.fileId} >
-          <div key={index} className='flex  p-5 border cursor-pointer hover:shadow-red-400 hover:scale-105 transition-all duration-400 shadow-md rounded-md flex-col items-center justify-center'>
+          <Link href={'/workspace/'+file.fileId }  key={file.fileId || index} >
+          <div  className='flex  p-5 border cursor-pointer hover:shadow-red-400 hover:scale-105 transition-all duration-400 shadow-md rounded-md flex-col items-center justify-center'>
           <Image src={'/pdflogo.png'} alt='pdfLogo' width={50} height={50}/>
           <h2 className='mt-3 font-medium text-xl'>{file?.fileName}</h2>
           {/* <h2>{file?Dashboard.}</h2> */}
