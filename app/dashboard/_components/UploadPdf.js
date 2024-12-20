@@ -22,7 +22,7 @@ import axios from 'axios'
 
   
 
-function UploadPdf({children}) {
+function UploadPdf({children,isMaxFile}) {
     const generateUploadUrl = useMutation(api.pdfStorage.generateUploadUrl);
     const addFileEntry =useMutation(api.pdfStorage.AddFileEntryToDb);
     const getFileUrl= useMutation(api.pdfStorage.getFileUrl);
@@ -81,7 +81,7 @@ function UploadPdf({children}) {
   return (
     <Dialog open={open}>
     <DialogTrigger asChild>
-        <Button className="w-full" onClick ={()=>setOpen(true)}>+Upload PDF File</Button>
+        <Button className="w-full" onClick ={()=>setOpen(true)}  disabled={isMaxFile} >+Upload PDF File</Button>
     </DialogTrigger>
     <DialogContent>
       <DialogHeader>
