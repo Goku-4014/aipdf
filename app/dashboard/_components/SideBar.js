@@ -19,7 +19,7 @@ function SideBar() {
   });
   return (
     <div className='shadow-md h-screen p-7'>
-      <img alt='' src={'/logo1.png'} width={175} height={120} />
+      <img alt='' src={'/logo.svg'} width={175} height={120} />
 
       <div className='mt-10'>
         <UploadPdf isMaxFile ={fileList?.length>=5?true:false}>

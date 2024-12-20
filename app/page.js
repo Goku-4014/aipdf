@@ -45,8 +45,8 @@ export default function Home() {
 
       <main className="container mx-auto px-4 py-16 mt-19 ">
         <div className="hero text-center">
-          <h1 className="text-6xl font-bold mb-4">Simplify <span className="text-[#ec2e0a]">PDF</span> Note-Taking <br/> with <span className="text-[#1e4bf2]">AI</span>-Powered</h1>
-          <p className="text-lg mb-8 mt-8">Elevate your note-taking experience with our AI-powered PDF app. Seamlessly extract key insights, summaries, and annotations <br/>from any PDF with just a few clicks.</p>
+          <h1 className="text-6xl font-bold mb-4 drop-shadow-lg">Simplify <span className="text-[#ec2e0a] ">PDF</span> Note-Taking <br/> with <span className="text-[#1e4bf2]">AI</span>-Powered</h1>
+          <p className="text-lg mb-8 mt-8 drop-shadow-lg">Elevate your note-taking experience with our AI-powered PDF app. Seamlessly extract key insights, summaries, and annotations <br/>from any PDF with just a few clicks.</p>
           <div className="flex justify-center space-x-4 mt-10">
           <Link href={'/dashboard'} >
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Get Started</button>
