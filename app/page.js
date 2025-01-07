@@ -32,10 +32,12 @@ export default function Home() {
           </div>
           <nav> 
             <ul className="flex space-x-6">
-              <li><a href="#" className="text-gray-700 hover:text-gray-900 font-medium">Features</a></li>
+              {/* <li><a href="#" className="text-gray-700 hover:text-gray-900 font-medium">Features</a></li>
               <li><a href="#" className="text-gray-700 hover:text-gray-900 font-medium">Solution</a></li>
-              <li><a href="#" className="text-gray-700 hover:text-gray-900 font-medium">Testimonials</a></li>
-              <li><a href="#" className="text-gray-700 hover:text-gray-900 font-medium">Blog</a></li>
+              <li><a href="#" className="text-gray-700 hover:text-gray-900 font-medium">Testimonials</a></li> */}
+              
+              <li><a href="/contact" className="text-gray-700 hover:text-gray-900 font-medium">Contact Me</a></li>
+              
 
               <li><a href="/dashboard" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Get Started</a></li>
             </ul>
